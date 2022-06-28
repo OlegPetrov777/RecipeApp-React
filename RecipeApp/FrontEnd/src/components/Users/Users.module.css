@@ -1,0 +1,25 @@
+.users_content {
+    padding-top: 8vh;
+    background: linear-gradient(to right, #020612, #0e1947);
+}
+
+.users_content__control_container {
+    width: 90%;
+    height: 35vh;
+    margin: 0 auto;
+    background: url("/src/static/smoke-footer.png") center no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.main_content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+
+    display: flex;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    align-content: stretch;
+}

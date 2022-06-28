@@ -1,0 +1,23 @@
+.content_header {
+    height: 5vh;
+    width: 100%;
+    padding-right: 10%;
+    padding-left: 4%;
+    margin-top: 2vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content_header__inner {
+
+}
+
+.content_header__link, .content_header__logo {
+     text-decoration: none;
+     color: rgb(173, 173, 173);
+    margin: 0 4%;
+ }
+
+

@@ -1,0 +1,113 @@
+.prewie_content {
+    height: 100vh;
+    background: url("/src/static/bg.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 8vh;
+}
+
+.prewie_content__text_container {
+    width: 647px;
+    margin-top: 150px;
+    margin-left: 195px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.text_container__title {
+    color: white;
+    margin: 0;
+    text-align: left;
+}
+
+.text_container__text {
+    color: white;
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.text_container__button {
+    text-align: center;
+    text-decoration: none;
+    color: #2E363E;
+    font-size: 18px;
+    background-color: #FED84C;
+    width: 285px;
+    height: 88px;
+    border-radius: 10px;
+    padding: 30px 50px;
+}
+
+.img_berry_1 {
+    height: 220px;
+    width: 220px;
+    position: fixed;
+    left: 0;
+    background: url("/src/static/berry.png") no-repeat;
+
+    animation-name: berry1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes berry1 {
+    0% {
+        top: 10px;
+    }
+    50% {
+        top: 40px;
+    }
+    100% {
+        top: 10px;
+    }
+}
+
+.img_berry_2 {
+    height: 220px;
+    width: 220px;
+    position: fixed;
+    left: 75%;
+    background: url("/src/static/berry2.png") no-repeat;
+
+    animation-name: berry2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes berry2 {
+    0% {
+        top: 65%;
+    }
+    50% {
+        top: 68%;
+    }
+    100% {
+        top: 65%;
+    }
+}
+
+.img_leaf {
+    height: 220px;
+    width: 250px;
+    position: fixed;
+    left: 0;
+    background: url("/src/static/leaf.png") no-repeat;
+
+    animation-name: leaf;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes leaf {
+    0% {
+        top: 77%;
+    }
+    50% {
+        top: 79%;
+    }
+    100% {
+        top: 77%;
+    }
+}

@@ -1,0 +1,54 @@
+.login_content {
+    background: url("/src/static/smoke-header2.png") no-repeat;
+    background-size: auto;
+    padding-top: 25vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.login_content__main_container {
+    width: 35%;
+    margin: 0 auto;
+    padding: 1%;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+.main_container__title {
+
+}
+
+.main_container__form {
+
+}
+
+.button {
+    text-decoration: none;
+    display: inline-block;
+    color: #2E363E;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    border: solid #2E363E 1px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #FED84C 0%, #FED84C 51%, rgba(3, 27, 87, 0.85) 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+.button:hover {
+    background-position: right center;
+}
+
+.button:active {
+    background-position: left center;
+}
+
+/*@media screen and (max-width: 650px){*/
+/*    .login_content__main_container {*/
+/*        width: 80%;*/
+/*    }*/
+/*}*/

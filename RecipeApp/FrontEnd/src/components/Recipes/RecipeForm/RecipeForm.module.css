@@ -1,0 +1,37 @@
+.content_recipe_form {
+    padding-top: 8vh;
+}
+
+.content_recipe_form__form {
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.55);
+    padding: 10px;
+}
+
+.form_input_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.input_container__item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input_container__input {
+    border-radius: 5px;
+    padding: 3px;
+    resize: none;
+}
+
+

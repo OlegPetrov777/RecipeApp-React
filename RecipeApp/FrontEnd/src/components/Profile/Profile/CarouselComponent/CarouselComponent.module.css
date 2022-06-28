@@ -1,0 +1,23 @@
+.recipe_image {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.recipe_container_text {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav_link {
+    /*text-decoration: none;*/
+    /*color: white;*/
+}
+
+.nav_link:hover {
+    z-index: 4;
+    color: red;
+    background-color: rgba(59, 59, 59, 0.3);
+}
